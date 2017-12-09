@@ -1,6 +1,6 @@
 
 MakeExe:run.cpp required.o
-	g++ run.cpp
+	g++ run.cpp -o run
 
 required.o:data.cpp
-	g++ data.cpp -c required.o
+	g++ -c data.cpp -o required.o
